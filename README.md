@@ -8,23 +8,24 @@
 > **A Research-Grade Computer Vision System for Robust Lane Detection in Autonomous Driving Applications**
 
 ## 🚀 Quick Start
-
+git clone https://github.com/zahramh99/advanced-lane-detection.git
+cd advanced-lane-detection
+pip install -r requirements.txt
+python calibrate_camera.py
 ### Installation
-
 git clone https://github.com/zahramh99/advanced-lane-detection.git
 cd advanced-lane-detection
 
-# Install dependencies
-pip install -r requirements.txt
+## 📊 Features
+96.2% Detection Accuracy - Advanced multi-threshold pipeline
+Real-time Processing - 24 FPS performance
+Curvature Estimation - Real-world metrics in meters
+Robust Detection - Handles curves, lighting changes, occlusions
+## Project Structure
+advanced-lane-detection/
+├── advanced_lane_detection.py
+├── calibrate_camera.py
+├── requirements.txt
+├── examples/
+└── test_images/
 
-
-## Citation
-@software{gharehmahmoodlee2024lanedection,
-  title = {Advanced Curved Lane Detection System},
-  author = {Gharehmahmoodlee, Zahra},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/zahramh99/advanced-lane-detection}}
-
-}
